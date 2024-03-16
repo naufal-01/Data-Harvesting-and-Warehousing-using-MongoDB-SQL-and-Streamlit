@@ -19,16 +19,25 @@ Streamlit: Streamlit is utilized to create an interactive web application for us
 #Required Libraries:
 
 googleapiclient: To interact with the YouTube Data API.
+
 pymongo: To connect to and manipulate MongoDB databases.
+
 psycopg2: To interact with PostgreSQL databases.
+
 pandas: For data manipulation and analysis.
+
 streamlit: For building the interactive web application interface
 
 #Features:
 
 Data Collection: The project allows for the extraction of channel information, video details, and comments from YouTube channels using the YouTube Data API.
+
 Data Storage: Extracted data is stored in both MongoDB and PostgreSQL databases, providing flexibility and scalability in data management.
+
 SQL Migration: Data stored in MongoDB is migrated to a PostgreSQL database, enabling relational querying and analysis.
+
 Interactive Web Interface: The project includes a Streamlit web application that allows users to interact with the collected YouTube data, visualize insights, and execute SQL queries.
+
 SQL Querying: Users can execute SQL queries to retrieve specific information from the PostgreSQL database, such as channel statistics, video analytics, and comment insights.
+
 Data Visualization: The Streamlit interface provides features for visualizing data, including tables, charts, and graphs, to facilitate data exploration and interpretation.
