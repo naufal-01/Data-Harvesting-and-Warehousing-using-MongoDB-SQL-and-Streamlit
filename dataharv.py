@@ -150,7 +150,7 @@ def channels_table():
     mydb = psycopg2.connect(host="localhost",
                             user="postgres",
                             password="Hyperspeed3#",
-                            database="youtube_database",
+                            database="youtube_data",
                             port="5432")
     cursor=mydb.cursor()
     
@@ -213,7 +213,7 @@ def videos_table():
       mydb = psycopg2.connect(host="localhost",
                           user="postgres",
                           password="Hyperspeed3#",
-                          database="youtube_database",
+                          database="youtube_data",
                           port="5432")
      
       cursor=mydb.cursor()
@@ -298,7 +298,7 @@ def comments_table():
       mydb = psycopg2.connect(host="localhost",
                           user="postgres",
                           password="Hyperspeed3#",
-                          database="youtube_database",
+                          database="youtube_data",
                           port="5432")
       cursor=mydb.cursor()
  
@@ -440,7 +440,7 @@ elif show_table == "COMMENTS":
 mydb = psycopg2.connect(host="localhost",
                         user="postgres",
                         password="Hyperspeed3#",
-                        database="youtube_database",
+                        database="youtube_data",
                         port="5432")
 cursor=mydb.cursor()
 
