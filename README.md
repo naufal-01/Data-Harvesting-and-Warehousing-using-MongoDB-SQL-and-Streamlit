@@ -17,6 +17,7 @@ Pandas: Pandas is used for data manipulation and analysis, facilitating tasks su
 Streamlit: Streamlit is utilized to create an interactive web application for users to interact with the collected YouTube data, visualize insights, and execute SQL queries.
 
 #Required Libraries:
+
 googleapiclient: To interact with the YouTube Data API.
 pymongo: To connect to and manipulate MongoDB databases.
 psycopg2: To interact with PostgreSQL databases.
